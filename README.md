@@ -1,4 +1,4 @@
-# MONTE CARLO CONTROL ALGORITHM
+# EX-05 - MONTE CARLO CONTROL ALGORITHM
 
 ## AIM
 To develop a Python program to find the optimal policy for the given RL environment using the Monte Carlo algorithm.
@@ -51,7 +51,6 @@ The agent receives a reward of 1 for reaching the goal state, and a reward of 0 
 9. After the policy converges, use the function `np.argmax` to find the optimal policy. The function takes the following arguments:
     * `Q`: The Q-table.
     * `axis`: The axis along which to find the maximum value.
-
 
 ## MONTE CARLO CONTROL FUNCTION
 ```python
@@ -155,7 +154,6 @@ def results(env, optimal_pi, goal_state, seed=123):
 
 goal_state = 15
 results(env, optimal_pi, goal_state=goal_state)
-
 ```
 ## OUTPUT:
 ### State - Value Function
